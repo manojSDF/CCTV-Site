@@ -24,7 +24,7 @@ const defaultProducts = [
     },
     {
         id: 2,
-        name: "Hikvision Dual Light Color Night Vision 3MP",
+        name: "2MP Smart Hybrid Light Fixed Mini Bullet Camera DS-2CE16D0T-EXLPF",
         category: "bullet",
         brand: "Hikvision",
         price: 7850,
@@ -47,7 +47,7 @@ const defaultProducts = [
     },
     {
         id: 3,
-        name: "Hikvision Dual Light Color with Audio",
+        name: "Hikvision 2MP Dual Light Color with Audio DS-2CE16D0T-LPFS",
         category: "bullet",
         brand: "Hikvision",
         price: 7950,
@@ -56,7 +56,7 @@ const defaultProducts = [
         rating: 4.6,
         reviews: 48,
         image: "images/prod-03.png",
-        description: "Hikvision Dual Light Color camera with built-in microphone for audio recording. Full color night vision with smart dual illumination.",
+        description: "Hikvision 2MP Dual Light Color camera with built-in microphone for audio recording. Full color night vision with smart dual illumination.",
         specs: {
             "Resolution": "3MP+",
             "Night Vision": "Dual Light Color",
@@ -70,7 +70,7 @@ const defaultProducts = [
     },
     {
         id: 4,
-        name: "Hikvision Full Time Color Audio Camera",
+        name: "ColorVu Hikvision 2MP Audio Fixed Mini Bullet Camera DS-2CE10DF0T-PFS",
         category: "bullet",
         brand: "Hikvision",
         price: 9850,
@@ -341,10 +341,224 @@ const defaultProducts = [
         },
         stock: 999,
         active: true
+    },
+    {
+        id: 16,
+        name: "500GB Surveillance Hard Drive",
+        category: "accessories",
+        brand: "Generic",
+        price: 5300,
+        oldPrice: null,
+        badge: "2 Years Warranty",
+        rating: 4.0,
+        reviews: 0,
+        image: "images/prod-16.webp",
+        description: "500GB Surveillance Grade Hard Drive designed for 24/7 continuous recording in CCTV systems. Optimized for high write workloads and reliable performance.",
+        specs: {
+            "Capacity": "500GB",
+            "Type": "Surveillance HDD",
+            "Usage": "24/7 Recording",
+            "Interface": "SATA",
+            "Compatibility": "DVR / NVR",
+            "Warranty": "2 Years"
+        },
+        stock: 30,
+        active: true
+    },
+    {
+        id: 17,
+        name: "Micro SD Card 64GB",
+        category: "accessories",
+        brand: "Generic",
+        price: 5200,
+        oldPrice: null,
+        badge: "1 Year Warranty",
+        rating: 4.0,
+        reviews: 0,
+        image: "images/prod-17.jpg",
+        description: "64GB Micro SD Card for CCTV cameras and DVR/NVR recording. High endurance and reliable storage for continuous surveillance use.",
+        specs: {
+            "Capacity": "64GB",
+            "Type": "Micro SD Card",
+            "Usage": "CCTV / DVR / NVR",
+            "Speed Class": "Class 10",
+            "Endurance": "High",
+            "Warranty": "1 Year"
+        },
+        stock: 50,
+        active: true
+    },
+    {
+        id: 18,
+        name: "Original Samsung 25W Power Adapter",
+        category: "mobile-accessories",
+        brand: "Samsung",
+        price: 4500,
+        oldPrice: null,
+        badge: "6 Month Warranty",
+        rating: 4.5,
+        reviews: 0,
+        image: "images/prod-18.webp",
+        description: "Original Samsung 25W Super Fast Charging Power Adapter. Supports USB-C PD fast charging for Samsung Galaxy and other compatible devices.",
+        specs: {
+            "Brand": "Samsung",
+            "Output": "25W Super Fast Charging",
+            "Port": "USB-C",
+            "Type": "Power Adapter",
+            "Compatibility": "Samsung Galaxy / USB-C Devices",
+            "Condition": "Brand New",
+            "Warranty": "6 Month Warranty"
+        },
+        stock: 20,
+        active: true
+    },
+    {
+        id: 19,
+        name: "Excellent Power Bank 20000MA",
+        category: "mobile-accessories",
+        brand: "Generic",
+        price: 6000,
+        oldPrice: null,
+        badge: "6 Month Warranty",
+        rating: 4.0,
+        reviews: 0,
+        image: "images/prod-19.webp",
+        description: "Excellent 20000mAh Power Bank with dual USB output. High capacity portable charger for smartphones, tablets, and other devices.",
+        specs: {
+            "Capacity": "20000mAh",
+            "Output": "Dual USB",
+            "Type": "Power Bank",
+            "Compatibility": "All Smartphones & Tablets",
+            "Condition": "Brand New",
+            "Warranty": "6 Month Warranty"
+        },
+        stock: 25,
+        active: true
+    },
+    {
+        id: 20,
+        name: "Hikvision 8-Port Gigabit Switch",
+        category: "accessories",
+        brand: "Hikvision",
+        price: 11900,
+        oldPrice: null,
+        badge: "2 Year Warranty",
+        rating: 4.5,
+        reviews: 0,
+        image: "images/prod-20.jpg",
+        description: "Hikvision 8-Port Gigabit Switch for high-speed network connectivity in CCTV systems. Supports 10/100/1000 Mbps transfer rates for reliable data transmission.",
+        specs: {
+            "Brand": "Hikvision",
+            "Ports": "8",
+            "Speed": "10/100/1000 Mbps",
+            "Type": "Gigabit Switch",
+            "Usage": "CCTV / Network",
+            "Warranty": "2 Year Warranty"
+        },
+        stock: 15,
+        active: true
+    },
+    {
+        id: 21,
+        name: "Hikvision DS-7604NI-Q1 4-Channel 4K NVR",
+        category: "nvr",
+        brand: "Hikvision",
+        price: 28900,
+        oldPrice: null,
+        badge: "2 Year Warranty",
+        rating: 4.5,
+        reviews: 0,
+        image: "images/prod-21.jpg",
+        description: "Hikvision DS-7604NI-Q1 4-Channel 4K NVR with H.265+ compression, up to 4K resolution support, HDMI output, and remote access via Hik-Connect app.",
+        specs: {
+            "Model": "DS-7604NI-Q1",
+            "Channels": "4",
+            "Resolution": "Up to 4K",
+            "Compression": "H.265+",
+            "Output": "HDMI",
+            "Remote Access": "Hik-Connect",
+            "Warranty": "2 Year Warranty"
+        },
+        stock: 10,
+        active: true
+    },
+    {
+        id: 22,
+        name: "Hikvision DS-7604NI-Q1/4P 4-Channel NVR with 4 PoE Ports",
+        category: "nvr",
+        brand: "Hikvision",
+        price: 46500,
+        oldPrice: null,
+        badge: "2 Year Warranty",
+        rating: 4.5,
+        reviews: 0,
+        image: "images/prod-22.webp",
+        description: "Hikvision DS-7604NI-Q1/4P 4-Channel NVR with 4 built-in PoE ports. Supports up to 4K resolution, H.265+ compression, and PoE plug-and-play setup for easy camera installation.",
+        specs: {
+            "Model": "DS-7604NI-Q1/4P",
+            "Channels": "4",
+            "PoE Ports": "4",
+            "Resolution": "Up to 4K",
+            "Compression": "H.265+",
+            "PoE": "Plug and Play",
+            "Remote Access": "Hik-Connect",
+            "Warranty": "2 Year Warranty"
+        },
+        stock: 10,
+        active: true
+    },
+    {
+        id: 23,
+        name: "Hikvision DS-7608NI-Q1 8-Channel 4K NVR",
+        category: "nvr",
+        brand: "Hikvision",
+        price: 43750,
+        oldPrice: null,
+        badge: "2 Year Warranty",
+        rating: 4.5,
+        reviews: 0,
+        image: "images/prod-23.jpg",
+        description: "Hikvision DS-7608NI-Q1 8-Channel 4K NVR with H.265+ compression, supports up to 4K ultra HD resolution, HDMI output, and remote access via Hik-Connect app.",
+        specs: {
+            "Model": "DS-7608NI-Q1",
+            "Channels": "8",
+            "Resolution": "Up to 4K",
+            "Compression": "H.265+",
+            "Output": "HDMI",
+            "Remote Access": "Hik-Connect",
+            "Warranty": "2 Year Warranty"
+        },
+        stock: 10,
+        active: true
+    },
+    {
+        id: 24,
+        name: "Hikvision DS-7608NXI-K2 8-Channel 2-HDD AI NVR",
+        category: "nvr",
+        brand: "Hikvision",
+        price: 57200,
+        oldPrice: null,
+        badge: "2 Year Warranty",
+        rating: 4.5,
+        reviews: 0,
+        image: "images/prod-24.webp",
+        description: "Hikvision DS-7608NXI-K2 8-Channel AI NVR with 2 HDD slots, deep learning AI features, H.265+ compression, up to 4K resolution, and advanced face/motion detection.",
+        specs: {
+            "Model": "DS-7608NXI-K2",
+            "Channels": "8",
+            "HDD Slots": "2",
+            "AI": "Deep Learning",
+            "Resolution": "Up to 4K",
+            "Compression": "H.265+",
+            "Detection": "Face / Motion",
+            "Warranty": "2 Year Warranty"
+        },
+        stock: 10,
+        active: true
     }
 ];
 
-const DATA_VERSION = 14;
+const DATA_VERSION = 25;
 
 function getProducts() {
     const storedVersion = localStorage.getItem('cctv_version');

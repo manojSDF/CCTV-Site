@@ -472,7 +472,7 @@ nav .container {
 
 .product-image {
     height: 220px;
-    background: var(--light);
+    background: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -486,7 +486,7 @@ nav .container {
 
 .product-info .category {
     font-size: 0.8rem;
-    color: var(--primary);
+    color: #03fc17;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
