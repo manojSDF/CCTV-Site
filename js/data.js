@@ -555,10 +555,80 @@ const defaultProducts = [
         },
         stock: 10,
         active: true
+    },
+    {
+        id: 25,
+        name: "Original 1M VGA Cable",
+        category: "accessories",
+        brand: "Generic",
+        price: 870,
+        oldPrice: null,
+        badge: "6 Month Warranty",
+        rating: 4.2,
+        reviews: 0,
+        image: "images/prod-25.jpg",
+        description: "VGA Cable 1 Meter for connecting monitors, DVRs, and other VGA-compatible devices. Supports high-quality video signal transmission.",
+        specs: {
+            "Type": "VGA Cable",
+            "Length": "1 Meter",
+            "Connector": "VGA Male to Male",
+            "Usage": "Monitor / DVR / PC",
+            "Quality": "High Quality",
+            "Condition": "Brand New"
+        },
+        stock: 50,
+        active: true
+    },
+    {
+        id: 26,
+        name: "Original 4K HDMI Cable 1M",
+        category: "accessories",
+        brand: "Generic",
+        price: 800,
+        oldPrice: null,
+        badge: "6 Month Warranty",
+        rating: 4.2,
+        reviews: 0,
+        image: "images/prod-26.jpg",
+        description: "Original 4K HDMI Cable 1 Meter for high-speed video and audio transmission. Supports 4K resolution, compatible with TVs, monitors, DVRs, and other HDMI devices.",
+        specs: {
+            "Type": "HDMI Cable",
+            "Length": "1 Meter",
+            "Resolution": "4K",
+            "Connector": "HDMI Male to Male",
+            "Usage": "TV / Monitor / DVR",
+            "Condition": "Brand New"
+        },
+        stock: 50,
+        active: true
+    },
+    {
+        id: 27,
+        name: "EZVIZ H6c Pro 3K Wi-Fi Camera",
+        category: "dome",
+        brand: "EZVIZ",
+        price: 14990,
+        oldPrice: null,
+        badge: "1 Year Warranty",
+        rating: 4.6,
+        reviews: 0,
+        image: "images/prod-27.jpg",
+        description: "EZVIZ H6c Pro 3K Wi-Fi security camera with 3K resolution, AI-powered detection, 360° panoramic view, two-way audio, and night vision. Connects via EZVIZ app for remote monitoring.",
+        specs: {
+            "Resolution": "3K",
+            "Brand": "EZVIZ",
+            "Model": "H6c Pro",
+            "Connectivity": "Wi-Fi",
+            "Features": "AI Detection / Two-way Audio / 360° View",
+            "Night Vision": "Yes",
+            "Warranty": "1 Year"
+        },
+        stock: 15,
+        active: true
     }
 ];
 
-const DATA_VERSION = 25;
+const DATA_VERSION = 28;
 
 function getProducts() {
     const storedVersion = localStorage.getItem('cctv_version');
