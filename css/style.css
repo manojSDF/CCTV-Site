@@ -52,6 +52,28 @@ img {
 }
 
 /* HEADER */
+.welcome-bar {
+    background: linear-gradient(90deg, var(--accent), var(--primary));
+    text-align: center;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.welcome-text {
+    display: inline-block;
+    color: var(--dark);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    animation: welcomeSlide 30s linear infinite;
+    white-space: nowrap;
+}
+
+@keyframes welcomeSlide {
+    0% { transform: translateX(100vw); }
+    100% { transform: translateX(-100%); }
+}
+
 header {
     background: linear-gradient(135deg, var(--dark), var(--dark-light));
     color: var(--white);
