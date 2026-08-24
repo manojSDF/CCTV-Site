@@ -330,6 +330,8 @@ function loadCheckoutPage() {
         el.addEventListener('click', function() {
             document.querySelectorAll('.payment-method').forEach(m => m.classList.remove('active'));
             this.classList.add('active');
+            const bankBox = document.getElementById('bank-details');
+            if (bankBox) bankBox.style.display = this.dataset.method === 'bank' ? 'block' : 'none';
         });
     });
 
