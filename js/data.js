@@ -625,10 +625,127 @@ const defaultProducts = [
         },
         stock: 15,
         active: true
+    },
+    {
+        id: 28,
+        name: "Hikvision 16 Channel DVR",
+        category: "dvr",
+        brand: "Hikvision",
+        price: 36500,
+        oldPrice: null,
+        badge: "2 Year Warranty",
+        rating: 4.7,
+        reviews: 0,
+        image: "images/prod-28.jpg",
+        description: "Hikvision 16 Channel DVR with H.265+ compression, remote access via mobile app, HDMI/VGA output. Supports all Hikvision camera models with 16 channel recording capability.",
+        specs: {
+            "Channels": "16",
+            "Brand": "Hikvision",
+            "Compression": "H.265+",
+            "Output": "HDMI / VGA",
+            "Storage": "SATA HDD",
+            "Warranty": "2 Years"
+        },
+        stock: 15,
+        active: true
+    },
+    {
+        id: 29,
+        name: "Imou 4MP Full Color Audio WiFi Camera",
+        category: "dome",
+        brand: "Imou",
+        price: 13500,
+        oldPrice: null,
+        badge: "2 Year Warranty",
+        rating: 4.6,
+        reviews: 0,
+        image: "images/prod-29.webp",
+        description: "Imou 4MP Full Color Audio WiFi Security Camera. Features full color night vision, built-in microphone for audio recording, and wireless WiFi connectivity for easy setup.",
+        specs: {
+            "Resolution": "4MP",
+            "Night Vision": "Full Color",
+            "Audio": "Built-in Microphone",
+            "Brand": "Imou",
+            "Connectivity": "Wi-Fi",
+            "Features": "Full Color / Audio Recording",
+            "Warranty": "2 Years"
+        },
+        stock: 20,
+        active: true
+    },
+    {
+        id: 30,
+        name: "Imou 5MP Full Color Audio WiFi 4G Camera",
+        category: "dome",
+        brand: "Imou",
+        price: 19300,
+        oldPrice: null,
+        badge: "2 Year Warranty",
+        rating: 4.7,
+        reviews: 0,
+        image: "images/prod-30.webp",
+        description: "Imou 5MP Full Color Audio WiFi 4G Security Camera. Features 5MP resolution, full color night vision, built-in microphone for audio, WiFi and 4G connectivity for flexible installation.",
+        specs: {
+            "Resolution": "5MP",
+            "Night Vision": "Full Color",
+            "Audio": "Built-in Microphone",
+            "Brand": "Imou",
+            "Connectivity": "Wi-Fi / 4G",
+            "Features": "Full Color / Audio Recording / 4G Support",
+            "Warranty": "2 Years"
+        },
+        stock: 15,
+        active: true
+    },
+    {
+        id: 31,
+        name: "Hikvision 2MP ColorVu Fixed Turret Camera",
+        category: "dome",
+        brand: "Hikvision",
+        price: 9800,
+        oldPrice: null,
+        badge: "2 Year Warranty",
+        rating: 4.6,
+        reviews: 0,
+        image: "images/prod-31.jpg",
+        description: "Hikvision 2MP ColorVu Fixed Turret Camera with full color night vision technology. Delivers vibrant color video even in low-light conditions with built-in warm light.",
+        specs: {
+            "Resolution": "2MP",
+            "Night Vision": "ColorVu Full Color",
+            "Brand": "Hikvision",
+            "Type": "Turret",
+            "Weatherproof": "IP67",
+            "Warranty": "2 Years"
+        },
+        stock: 20,
+        active: true
+    },
+    {
+        id: 32,
+        name: "1TB Hard Disk 3 Years Warranty",
+        category: "accessories",
+        brand: "Generic",
+        price: 26500,
+        oldPrice: null,
+        badge: "3 Year Warranty",
+        rating: 4.5,
+        reviews: 0,
+        image: "images/prod-32.jpg",
+        description: "1TB Surveillance Grade Hard Drive with 3 years warranty. Designed for 24/7 continuous recording in CCTV systems. Optimized for high write workloads and reliable performance.",
+        specs: {
+            "Capacity": "1TB",
+            "Type": "Surveillance HDD",
+            "Usage": "24/7 Recording",
+            "Interface": "SATA",
+            "Compatibility": "DVR / NVR",
+            "Warranty": "3 Years"
+        },
+        stock: 25,
+        active: true
     }
 ];
 
-const DATA_VERSION = 28;
+const DATA_VERSION = 33;
 
 function getProducts() {
     const storedVersion = localStorage.getItem('cctv_version');
